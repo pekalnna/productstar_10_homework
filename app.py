@@ -6,4 +6,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def main():
-    return render_template('template.html', phrase=b64decode(b'0L/QuNGC0L7QvdCw').decode('utf-8'))
+    return render_template('template.html', phrase=b64decode(b'0YHQv9Cw0YHQuNCx0L4=').decode('utf-8'))
